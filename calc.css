@@ -1,0 +1,61 @@
+
+       body{
+            background-image: url(back.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .main{
+            position: absolute;
+            top:25%;
+            right:40%;
+            padding:40px;
+            border-radius:10px;
+            background-color:rgb(231, 240, 195,0.3);
+            width:19%;
+            backface-visibility: 10px;
+            
+        }
+        .main:hover{
+              
+              background-color:rgb(231, 240, 195,0);
+          }
+          .screen{
+            margin:5px;
+        }
+        table{
+            margin:3px;
+        }
+
+        input{
+            width:250px;
+            height:55px;
+            font-size:25px;
+            margin:2px;
+            padding-right:8px;
+            border:none;
+            text-align: right;
+
+        }
+        button{
+            width:60px;
+            height:50px;
+            font-size:23px;
+            border-radius: 80px;
+            background:none;
+            color:#f4e04d;
+            outline:none;
+            
+        }
+        button:hover{
+            background-color:#204051; 
+        }
+        #plus{
+            font-size: 30px;
+        }
+        #sub{
+            font-size: 30px;
+        }
+        #std{
+            width:120px;
+        }
+    
